@@ -1,3 +1,5 @@
 Git-hub Repository - https://github.com/knowledge-corner/2025_12_Feb_Python-Data_Viz_analytics.git 
 
 Basic Python Training Videos - https://www.youtube.com/playlist?list=PL74ja_8REXcYafeTYO4ivQDzYEDYQkTQu
+
+matplotlib documentation - https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.plot.html
