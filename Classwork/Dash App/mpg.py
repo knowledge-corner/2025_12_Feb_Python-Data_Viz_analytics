@@ -9,4 +9,4 @@ df.horsepower = df.horsepower.astype(int)
 origins = {1 : "USA", 2 : "Germany", 3 : "Japan"}
 df.replace({"origin" : origins}, inplace=True)
 
-print(df.head())
+# print(df.head())
