@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto MPG Data Visualizations</title>
+    <style>
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            text-align: left;
+        }
+        img {
+            width: 100%;
+            max-width: 600px;
+            margin-top: 20px;
+        }
+        h2 {
+            color: #004080;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+<h1>Auto MPG DashBoard</h1>
+
+<h2>Bar Chart: Average Horsepower by Origin</h2>
+<img src="{{ url_for('bar_chart')}}" alt = "Bar Chart">
+
+<h2>Scatter Chart: Correlation between MPG and Weight</h2>
+<img src="{{ url_for('scatter_chart')}}" alt = "Scatter Chart">
+
+<h2>BoxPlot: MPG Distribution by Origin</h2>
+<img src="{{ url_for('box_chart')}}" alt = "Box Chart">
+
+</div>
+
+</body>
+</html>
